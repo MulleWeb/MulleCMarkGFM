@@ -1,0 +1,32 @@
+{
+   project =
+   {
+      description="💃🏼 GitHub Flavored Markdown support for mulle-objc";
+      domain="github";
+      name="MulleCMarkGFM";
+      user="MulleWeb";
+      repo="MulleCMarkGFM";
+      homepage="https://github.com/MulleWeb/MulleCMarkGFM";
+      license="BSD-3 LICENSED";
+      version="0.0.1";
+   };
+   dependencies =
+   (
+      {
+         description="🧱 MulleFoundationBase amalgamates Foundations projects";
+         domain="github";
+         name="MulleFoundationBase";
+         repo="MulleFoundationBase";
+         url="https://github.com/MulleFoundation/MulleFoundationBase";
+         user="MulleFoundation";
+      },
+      {
+         description="📒 Lists mulle-objc runtime information contained in executables.";
+         domain="github";
+         name="mulle-objc-list";
+         repo="mulle-objc-list";
+         url="https://github.com/mulle-objc/mulle-objc-list";
+         user="mulle-objc";
+      }
+   );
+}

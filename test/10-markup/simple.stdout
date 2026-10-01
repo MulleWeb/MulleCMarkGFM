@@ -1,0 +1,69 @@
+<h1>Headline</h1>
+<p>Some <em>emphasis</em> and <del>strikethrough</del>.</p>
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><input type="checkbox" checked="" disabled="" /> done</li>
+<li><input type="checkbox" disabled="" /> open</li>
+</ul>
+<p>See <a href="guide.html">guide</a>.</p>
+&lt;script>alert('xss')&lt;/script>
+
+<h1>Headline</h1>
+<p>Some <em>emphasis</em> and <del>strikethrough</del>.</p>
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><input type="checkbox" checked="" disabled="" /> done</li>
+<li><input type="checkbox" disabled="" /> open</li>
+</ul>
+<p>See <a href="guide.html">guide</a>.</p>
+&lt;script>alert('xss')&lt;/script>
+
+<h1>Headline</h1>
+<p>Some <em>emphasis</em> and <del>strikethrough</del>.</p>
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><input type="checkbox" checked="" disabled="" /> done</li>
+<li><input type="checkbox" disabled="" /> open</li>
+</ul>
+<p>See <a href="guide.html">guide</a>.</p>
+<script>alert('xss')</script>
+

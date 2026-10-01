@@ -1,0 +1,10 @@
+
+Converts [markdown](https://en.wikipedia.org/wiki/Markdown) to HTML using
+[cmark-gfm](https://github.com/github/cmark-gfm), GitHub's CommonMark
+implementation with GitHub Flavored Markdown extensions (tables,
+strikethrough, autolinks, task lists, footnotes, tagfilter).
+
+MulleCMarkGFM is a drop-in replacement for
+[MulleHoedown](//github.com/MulleWeb/MulleHoedown): it offers the same
+conversion API and additionally the `cmarkGFM...` methods.
+

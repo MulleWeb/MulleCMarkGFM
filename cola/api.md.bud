@@ -1,0 +1,31 @@
+## API
+
+The API shared with MulleHoedown is:
+
+``` objc
+- (NSData *) markdownedData;
+- (NSData *) markdownedDataWithHTMLFlags:(NSUInteger) flags
+                              extensions:(NSUInteger) extensions
+                               tocIndent:(NSUInteger) indent;
+- (NSString *) markdownedString;
+- (NSString *) markdownedStringWithHTMLFlags:(NSUInteger) flags
+                                  extensions:(NSUInteger) extensions
+                                   tocIndent:(NSUInteger) indent;
+```
+
+The method names and flags are shared with MulleHoedown, so source can be moved
+between the two; each backend renders with its own native rules, so the output
+is not meant to be identical. The flags are the `MULLE_MARKDOWN_HTML_*` and
+`MULLE_MARKDOWN_EXT_*` constants.
+
+MulleCMarkGFM additionally offers the `cmarkGFMed...` methods. `markdownedData`
+is this backend's native default: it enables cmark-gfm's GitHub Flavored Markdown
+extensions (tables, strikethrough, autolinks, task lists, footnotes, tagfilter).
+`cmarkGFMed...` are the same methods under a cmark-gfm-specific name.
+`hoedownedData` instead reproduces MulleHoedown's default, so existing call
+sites keep their behavior.
+
+The MulleHoedown `hoedownedData` / `hoedownedString` methods and the
+`HOEDOWN_*` flag constants are provided as well, so existing code keeps
+compiling. The `tocIndent` argument is accepted for compatibility and ignored,
+cmark-gfm has no table of contents renderer.
