@@ -287,15 +287,15 @@ export MULLE_OBJC_TOOLS_BRANCH="prerelease"
 
 
 #
-# MulleFoundation-startup nodetype: ${MULLEFOUNDATION_STARTUP_NODETYPE:-tar}
+# MulleFoundation-startup nodetype: ${MULLE_FOUNDATION__STARTUP_NODETYPE:-tar}
 #
-export MULLEFOUNDATION_STARTUP_NODETYPE="git"
+export MULLE_FOUNDATION__STARTUP_NODETYPE="git"
 
 
 #
-# MulleFoundation-startup url: ${MULLEFOUNDATION_STARTUP_URL:-https://github.com/MulleFoundation/MulleFoundation-startup/archive/${MULLE_TAG}.tar.gz}
+# MulleFoundation-startup url: ${MULLE_FOUNDATION__STARTUP_URL:-https://github.com/MulleFoundation/MulleFoundation-startup/archive/${MULLE_TAG}.tar.gz}
 #
-export MULLEFOUNDATION_STARTUP_URL="https://github.com/MulleFoundation/MulleFoundation-startup.git"
+export MULLE_FOUNDATION__STARTUP_URL="https://github.com/MulleFoundation/MulleFoundation-startup.git"
 
 
 #

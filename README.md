@@ -56,6 +56,10 @@ compiling. The `tocIndent` argument is accepted for compatibility and ignored,
 cmark-gfm has no table of contents renderer.
 
 
+## Documentation & Guides
+
+* [API Summary](asset/dox/api/toc)
+
 
 ### You are here
 
